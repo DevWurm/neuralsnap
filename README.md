@@ -46,7 +46,7 @@ In the output examples above, the red text is the image caption, and the poetry-
 
 I have tested this software on Ubuntu 14.04 and 15.10. You can try other OS options at your own risk -- in theory, it should run on anything that can run Torch and Python, although I've heard that [NeuralTalk2 does not play nice with the Raspberry Pi](https://github.com/SaMnCo/docker-neuraltalk2).
 
-You'll need to clone the [NeuralTalk2](https://github.com/karpathy/neuraltalk) and [Char-RNN](https://github.com/karpathy/char-rnn) repos into the main folder, then follow Karpathy's README instructions to install the dependencies for NeuralTalk2 -- you don't need to worry about any of the GPU or training stuff, unless you want to use your own models. (The models I've provided are calibrated to run on CPUs.) Thankfully, the dependencies of Char-RNN are a subset of those required for NeuralTalk2.
+You'll need to clone the [NeuralTalk2](https://github.com/karpathy/neuraltalk) and [Char-RNN](https://github.com/karpathy/char-rnn) repos into the main folder, then follow Karpathy's README instructions to install the dependencies for NeuralTalk2 -- you don't need to worry about any of the GPU or training stuff, unless you want to use your own models. (The models I've provided are calibrated to run on CPUs.) Thankfully, the dependencies of Char-RNN are a subset of those required for NeuralTalk2. You also need to install [torch](http://torch.ch/docs/getting-started.html) because it is necessary to use NeuralTalk2.
 
 ## Usage
 
